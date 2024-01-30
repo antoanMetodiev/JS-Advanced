@@ -1,10 +1,9 @@
 function calculateTextsLength(arr1, arr2, arr3) {
-    firstArgLength = arr1.length;
+    let firstArgLength = arr1.length;
+    let secondArgLength = arr2.length;
+    let thirdArgLength = arr3.length;
 
-    secondArgLength = arr2.length;
-
-    thirdArgLength = arr3.length;
-    result = firstArgLength + secondArgLength + thirdArgLength;
+    let result = firstArgLength + secondArgLength + thirdArgLength;
     console.log(result);
     console.log(Math.floor(result / 3));
 }
