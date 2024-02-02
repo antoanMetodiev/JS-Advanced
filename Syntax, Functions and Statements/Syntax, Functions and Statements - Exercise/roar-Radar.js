@@ -1,5 +1,4 @@
 function roadRadar(kilometers, place) {
-
     let km = Number(kilometers);
     let roadPlace = place;
 
