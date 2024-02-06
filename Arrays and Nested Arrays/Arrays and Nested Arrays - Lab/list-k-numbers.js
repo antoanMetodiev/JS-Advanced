@@ -3,12 +3,9 @@ function solve(n, k) {
     let repeated = Number(k);
 
     n = Number(n);
-
     while (numbers.length < n) {
 
         let addedNumber = 0;
-
-        // [1, 1, 2, 4, 7, 13]
         for (let i = numbers.length - 1; i >= 0; i--) {
 
             repeated--;
@@ -23,9 +20,8 @@ function solve(n, k) {
 
         numbers[numbers.length] = addedNumber;
     }
-
+    
     // Output:
-
     let result = '[';
     for (let i = 0; i < numbers.length; i++) {
 
@@ -35,8 +31,7 @@ function solve(n, k) {
         }
         result += numbers[i] + ', ';
     }
-    
-    return result;
+    console.log(result);
 }
 
 solve(8, 2);
