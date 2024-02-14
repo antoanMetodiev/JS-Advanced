@@ -1,6 +1,5 @@
 function solve(worker) {
     if (worker.dizziness) {
- 
         worker.levelOfHydrated += (worker.weight * 0.1) * worker.experience;
         worker.dizziness = false;
     }
@@ -13,4 +12,3 @@ console.log(solve({
     levelOfHydrated: 200,
     dizziness: true
 }));
-
