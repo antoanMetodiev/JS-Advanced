@@ -8,7 +8,6 @@ function solve(requirementCar) {
 
     // Put The Engine:
     if (requirementCar.power <= 90) {
-
         car.engine.power = 90;
         car.engine.volume = 1800;
     } else if (requirementCar.power > 90 && requirementCar.power <= 120) {
@@ -16,11 +15,10 @@ function solve(requirementCar) {
         car.engine.power = 120;
         car.engine.volume = 2400;
     } else if (requirementCar.power > 120 && requirementCar.power <= 200) {
-
+        
         car.engine.power = 200;
         car.engine.volume = 3500;
     }
-
     // Set Car color:
     car.carriage.type = requirementCar.carriage;
     car.carriage.color = requirementCar.color;
@@ -36,7 +34,6 @@ function solve(requirementCar) {
     car.wheels.push(requirementCar.wheelsize);
     car.wheels.push(requirementCar.wheelsize);
     car.wheels.push(requirementCar.wheelsize);
-    
     return car;
 }
 
