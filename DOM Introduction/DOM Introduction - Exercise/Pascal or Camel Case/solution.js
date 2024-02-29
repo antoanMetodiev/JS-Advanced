@@ -19,7 +19,6 @@ function solve() {
     resultElement.textContent = newWord;
 
   } else if (namingConvention === 'Pascal Case') {
-
     for (let i = 0; i < text.length; i++) {
       for (let j = 0; j < text[i].length; j++) {
 
@@ -31,7 +30,7 @@ function solve() {
       }
     }
     resultElement.textContent = newWord;
-
+    
   } else {
     resultElement.textContent = 'Error!';
   }
