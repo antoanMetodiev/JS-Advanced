@@ -1,6 +1,5 @@
 function create(sections) {
    let parentElement = document.getElementById('content');
-   
    sections.forEach(sectionText => {
       let div = document.createElement('div');
       let pElement = document.createElement('p');
