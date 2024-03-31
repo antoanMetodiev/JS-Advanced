@@ -2,7 +2,6 @@ function encodeAndDecodeMessages() {
     let initialText = '';
     let sendText = '';
 
-    // second textArrea
     let codeTextArea = document.getElementsByTagName('textarea')[0];
     let decodeTextArea = document.getElementsByTagName('textarea')[1];
     codeTextArea.value = '';
