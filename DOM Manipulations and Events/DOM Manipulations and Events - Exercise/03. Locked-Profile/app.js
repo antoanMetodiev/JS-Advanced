@@ -1,7 +1,6 @@
 function lockedProfile() {
     const data = document.querySelectorAll('div input[type="radio"]');
     let divEls = [];
-
     for (let i = 0; i < data.length; i += 2) {
         divEls.push(Array.of(data[i], data[i + 1]));
     }
