@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     font-family: "PT sans", sans-serif;
     font-size: 24px;
     color: #234465;
 }
+
 body{
     display: flex;
     flex-direction: column;
@@ -17,6 +20,7 @@ body{
     min-height: 100vh;
     flex-wrap: wrap;
 }
+
 #main{   
     margin: 0 auto;
     width: 50%;
@@ -50,4 +54,3 @@ textarea{
 	display: inline-block;
 	width: 49%;
 }
-
