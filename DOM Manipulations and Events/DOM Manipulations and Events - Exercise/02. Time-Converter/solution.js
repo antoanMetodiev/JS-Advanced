@@ -1,6 +1,5 @@
 function attachEventsListeners() {
     let divElements = Array.from(document.getElementsByTagName('div'));
-    
     divElements.forEach(div => {
         let inputButton = div.querySelectorAll('input')[1];
         let labelName = div.querySelector('label').textContent.trim();
@@ -20,7 +19,6 @@ function attachEventsListeners() {
             } else if (labelName === 'Seconds:') {
                 daysInput.value = Number(inputText.value) / 86400;
             }
-
             hoursInput.value = daysInput.value * 24;
             minutesInput.value = hoursInput.value * 60;
             secondsInput.value = daysInput.value * 86400;
